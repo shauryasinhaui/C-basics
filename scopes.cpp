@@ -2,8 +2,10 @@
 using namespace std;
 void update(int arr[], int n) { 
     cout << endl << "inside the function" << endl;
+    //updating the first array in the main function
+    arr[0] = 120;
     //printing the array
-    for(int i = 0; i < n; i++) {
+    for(int i = 0; i < 3; i++) {
         cout << arr[i] << " ";
 
     }
